@@ -1,0 +1,100 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #0a0a20;
+  color: #f5f6f7;
+  font-family:Verdana;
+  font-size: 16px;
+
+}
+
+h1 {
+  color: #f5f6f7;
+  font-family:Cardamon;
+  font-size: 40px;
+}
+
+div {
+background-color:#825338;
+  border: solid #143E0E;
+  border-width: 2px 5px 11px 1px;
+  border-radius: 35px;
+  margin: 13px auto;
+  padding: 1em;
+  text-align:center;
+  width: 555px;
+}
+
+form {
+  padding-bottom: 0.5px;
+}
+
+div:not(.person) {
+   min-width:555px;
+}
+
+
+#person {
+  width:250px;
+  min-width:250px;
+}
+
+.person label {
+  display:block;
+  text-align:left;
+  margin: 0.15rem 0;
+  padding:10px ;
+  font-weight:550;
+}
+
+input[type="email"],
+[type="text"],
+[type="number"] {
+  width:80%;
+  position:relative;
+  right:6%;
+  bottom:1em;
+}
+
+#number {
+  width:35%;
+  position:relative;
+  right:28%;
+}
+
+[type="tel"] {
+  width:33%;
+  position:relative;
+  right:30%;
+  bottom:1em;
+}
+
+.dropdown {
+  padding:15px auto;
+}
+
+.check label {
+  padding: 2em auto;
+  display: flex;
+  align-items: center;
+}
+
+textarea {
+  margin: 2px auto;
+  width: 80%;
+  min-height: 2em;
+}
+
+
+button  {
+  display: block;
+  margin: 4% auto;
+  min-width: 300px;
+  height: 2em;
+  font-size: 1rem;
+  background-color: white;
+  width: 33%;
+}
+h6 {
+  text-align:center;
+}
