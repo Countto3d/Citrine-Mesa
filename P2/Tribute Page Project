@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title id="title">CSS-Ception</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main id="main">
+    <div id="tribute">
+        <h1><em>CSS</em></h1>
+        <p>Changing the way we see The Web, forever.</p>
+        <figure id="img-div">
+            <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3 lOGO">
+            <figcaption id="img-caption">CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</figcaption>
+        </figure>
+        <section id="tribute-info">
+            <h2>Here's the timeline of Cascading Style Sheets:</h2>
+            <ul>
+                <li><em>1994</em> - Håkon Wium Lie proposes the idea of CSS while working at CERN alongside Tim Berners-Lee, the inventor of the World Wide Web.
+                    He publishes the first draft of Cascading HTML Style Sheets proposal.</li>
+                <li><em>1996</em> - The first version of CSS known as CSS1, is released by the World-Wide Consortium (W3C). It defines basic properties for fonts, colors. margins, and text alignment.</li>
+                <li><em>1998</em> - CSS2 is released by the W3C, adding new features such as
+                    positioning, media types, pseudo-elements. Work on CSS3 begins shortly after.</li>
+                <li><em>2005</em> - The W3C decides to split CSS3 into separate modules include
+                    Selectors, Box Model, Backgrounds and Borders, Text Effects, 2D/3D Transformations, Animations, and Grid Layout.</li>
+                <li><em>2016</em> - CSS2.1 becomes an official W3C Recommendation, meaning it has
+                    been reviewed and approved by the W3C members. It fixes some errors and ambiguities in CSS2 and adds some new features such as inline-block and table-layout.</li>
+                <li><em>2018</em> - The first level of CSS Grid Layout becomes a W3C Recommendation, providing a powerful way to create two-dimensional layouts for web pages.
+                    It is widely supported by modern browsers.</li>
+                <li><em>2020</em> - The W3C publishes the first working draft of CSS4 which is not a single specification but a collection of new modules and extensions to existing ones.
+                    Some of the proposed features include color-mod(), custom media queries, nesting rules, and :is() and :where() pseudo-classes.</li>
+            </ul>
+            <blockquote cite="https://hacks.mozilla.org/2019/10/why-is-css-so-weird/">
+                "CSS is the design language of the web - one of the three core web languages - but it also seems to be the most contentious and often perplexing. It's too easy and too hard, too fragile and too resilient. Love it or hate it
+                , CSS is weird: not quite markup, not quite programming in the imperative sense, and nothing like the design programs we use for print. How did we get here?" -- Miriam Suzanne
+            </blockquote>
+            <p>To read more about Cascading Style Sheets visit
+                <a id="tribute-link" href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS Wiki</a>
+            </p>
+        </section>
+    </div>
+    <h6 class="copyright">&copy; 2023 Mequilla Baker. All rights reserved.</h6>
+</main>
+</body>
+</html>
