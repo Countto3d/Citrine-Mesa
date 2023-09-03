@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiking Trail Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="header">
+    <header>
+        <h1 id="title">Lazy Mountain Trail Survey</h1>
+    </header>
+    <p id="description">This is a trail survey for
+        the <em><strong>Lazy Mountain Trail</strong></em>.<br> Please take your time to fill out the form as your feedback is greatly appreciated.
+    </p>
+</div>
+<form id="survey-form" name="survey-form">
+    <div class="person" id="person">
+        <label for="name" id="name-label">Name: </label>
+        <input required id="name" type="text" placeholder="Jane Appleseed" autofocus>
+        <label for="email" id="email-label">Email: </label>
+        <input required id="email" type="email" placeholder="Jane.Appleseed5@email.com">
+        <label for="phone" id="number-label">Phone Number: </label>
+        <input id="phone" type="tel" placeholder="9075558309" maxlength="11">
+        <label for="number" id="temp-label">Temperature: </label>
+        <input id="number" type="number" min="-70" max="140" placeholder="Fahrenheit">
+        <label for="date" id="date-label">Date Travelled: </label>
+        <input id="date" type="date">
+    </div>
+
+    <div class="dropdown">
+        <label for="dropdown"></label>
+        <h2>How would you rate the difficulty of the trail?</h2>
+        <select id="dropdown">
+            <option value="fluffy">Fluffy bunny</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="difficult">Difficult</option>
+            <option value="very-difficult">Very Difficult</option>
+            <option value="strenuous">Strenuous</option>
+        </select>
+    </div>
+
+    <div class="check">
+        <h2>Accommodations of trailhead and trails. <br>Select all that apply:</h2>
+        <label for="parking">
+            <input type="checkbox" id="parking" name="accommodations" value="parking"> Clean and open parking lot
+        </label>
+        <label for="restroom">
+            <input type="checkbox" id="restroom" name="accommodations" value="restroom">Sanitary restroom conditions
+        </label>
+        <label for="trail">
+            <input type="checkbox" id="trail" name="accommodations" value="trail">Litter-free and maintained trails
+        </label>
+        <label for="info">
+            <input type="checkbox" id="info" name="accommodations" value="info">Trail information available at trailhead
+        </label>
+        <label for="info">
+            <input type="checkbox" id="none" name="accommodations" value="none">None (Please fill out feedback box if you've selected this option)
+        </label>
+    </div>
+    <div class="recommend">
+        <h3>Would you tell a friend or family member about this trail?</h3>
+        <label>
+            <input type="radio" id="yes" name="recommend"  value="yes">Yes
+        </label>
+        <label>
+            <input type="radio" id="no" name="recommend" value="no">No
+        </label>
+        <label>
+            <input type="radio" id="maybe" name="recommend" value="maybe">Maybe
+        </label>
+    </div>
+    <div class="feedback">
+        <label id="feedback-label" for="feedback"><textarea id="feedback" rows="3" cols="30" placeholder="FEEDBACK BOX: Please send any feedback you'd like us to hear."></textarea>
+        </label>
+    </div>
+    <button type="submit" id="submit">Submit</button>
+    <h6 class="copyright">&copy; 2013 Mequilla Baker. All rights reserved.</h6>
+</form>
+</body>
+</html>
